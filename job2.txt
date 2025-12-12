@@ -1,0 +1,4 @@
+grep "tail -f /dev/null" ps.txt
+grep -v "root" ps.txt
+awk '{print $1}' ps.txt
+
