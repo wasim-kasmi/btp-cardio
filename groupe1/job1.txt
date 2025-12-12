@@ -1,0 +1,3 @@
+head -n 2 /app/repo/groupe-1/groupe-1.md
+tail -n 10 /app/repo/groupe-1/groupe-1.md
+which ls
