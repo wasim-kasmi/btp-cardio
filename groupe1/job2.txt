@@ -1,0 +1,5 @@
+chmod 644 groupe-1.md
+chmod 256 yolo3.md
+sudo chown root:root groupe-1.md yolo3.md
+sudo touch -d "2025-02-03 05:28" yolo3.md
+ls -l
