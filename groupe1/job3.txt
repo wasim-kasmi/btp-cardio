@@ -1,0 +1,16 @@
+touch groupe-1.md
+mkdir test0
+echo "1234" > test1
+ln -s test0 test2
+
+chmod 644 groupe-1.md
+chmod 500 test0
+chmod 714 test1
+
+sudo chown root:root groupe-1.md test0 test1 test2
+
+sudo touch -d "2025-01-01 20:47" test0
+sudo touch -d "2025-01-01 21:46" test1
+sudo touch -d "2025-01-01 22:20" test2
+
+ls -l
